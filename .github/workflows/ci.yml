@@ -1,6 +1,8 @@
 name: 'Continuous Integration'
 on:
   push:
+    branches: 
+      - 'master'
     branches-ignore:
       - 'production'
     tags-ignore:
